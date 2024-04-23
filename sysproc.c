@@ -81,6 +81,8 @@ sys_kill(void)
 
 uint64
 sys_mmap(void) {
+
+/*
   uint64 addr;
   uint64 length;
   int permission;
@@ -131,6 +133,9 @@ sys_mmap(void) {
   vma->used = 1;
 
   return addr;
+*/
+	return -1;
+
 }
 
 uint64
